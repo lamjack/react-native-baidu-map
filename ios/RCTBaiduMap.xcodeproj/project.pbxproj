@@ -242,10 +242,7 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/lib";
 				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
-				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../../react-native/React/**",
-					"$(SRCROOT)/../../react-native/Libraries/**",
-				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../../node_modules/react-native/React/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -261,10 +258,7 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/lib";
 				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
-				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../../react-native/React/**",
-					"$(SRCROOT)/../../react-native/Libraries/**",
-				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../../node_modules/react-native/React/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = (
 					"-ObjC",
